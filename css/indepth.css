@@ -1,0 +1,127 @@
+@font-face
+{
+   font-family: "Anton-Regular";
+   src: url(../fonts/Anton-Regular.ttf) format("opentype");
+}
+
+.background {
+  background-image: url(../images/Fondo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0px;
+}
+
+.inner {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.logo-header {
+  width: 430px;
+  height: 360px;
+  background-image: url(../images/logo-tocho.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0px auto 100px auto;
+}
+
+.txt-news {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: 'Anton-Regular', sans-serif;
+  letter-spacing: 3px;
+}
+
+.button {
+  background-color: #83e036;
+  color: #000;
+  height: 40px;
+  width: 300px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.sponsor {
+  width: 430px;
+  margin: 200px auto 0px auto;
+  overflow: auto;
+}
+
+.txt-sponsor {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  float: left;
+  line-height: 66px;
+  letter-spacing: 2px;
+}
+
+.img-sponsor {
+  width: 150px;
+  height: 65px;
+  float: right;
+  background-image: url(../images/logo-bardahl.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#mc_embed_signup {
+  background-color: transparent;
+}
+
+#mce-EMAIL {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .inner {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-header {
+    width: 300px;
+    height: 260px;
+  }
+
+  .sponsor {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .txt-news {
+    font-size: 23px;
+  }
+
+  .sponsor{
+    margin-top: 100px;
+  }
+
+  .txt-sponsor {
+    float: none;
+    text-align: center;
+    line-height: auto;
+  }
+
+  .img-sponsor {
+    float: none;
+    margin: 20px auto;
+  }
+}
