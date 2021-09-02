@@ -40,14 +40,14 @@
 }
 
 .button {
-  background-color: #83e036;
-  color: #000;
-  height: 40px;
-  width: 300px;
-  border: none;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  background-color: #83e036!important;
+  color: #000!important;
+  height: 40px!important;
+  width: 300px!important;
+  border: none!important;
+  font-size: 20px!important;
+  font-weight: 700!important;
+  letter-spacing: 1px!important;
 }
 
 .sponsor {
@@ -77,15 +77,15 @@
 }
 
 #mc_embed_signup {
-  background-color: transparent;
+  background-color: transparent!important;
 }
 
 #mce-EMAIL {
-  width: 100%;
-  height: 50px;
-  border: none;
-  padding-left: 10px;
-  margin-bottom: 50px;
+  width: 100%!important;
+  height: 50px!important;
+  border: none!important;
+  padding-left: 10px!important;
+  margin-bottom: 50px!important;
 }
 
 @media screen and (max-width: 767px) {
