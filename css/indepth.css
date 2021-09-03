@@ -101,11 +101,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .logo-header {
-    width: 300px;
-    height: 260px;
-  }
-
   .sponsor {
     width: 90%;
   }
@@ -114,10 +109,6 @@
 @media screen and (max-width: 420px) {
   .txt-news {
     font-size: 23px;
-  }
-
-  .sponsor{
-    margin-top: 100px;
   }
 
   .txt-sponsor {
